@@ -1,0 +1,278 @@
+@media only screen and (min-width:1550px) {
+    .header-single-slider figure,
+    .header-single-slider figure img {
+        width: 100%;
+    }
+
+    .navbar-area {
+        padding: 16px 0;
+        min-height: 200px !important;
+    }
+}
+
+@media only screen and (min-width:1350px) {
+    .header-single-slider figure,
+    .header-single-slider figure img {
+        width: 100%;
+    }
+
+    .navbar-area {
+        min-height: 146px
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:991px) {
+    .main-menu ul li a {
+        padding: 10px 5px;
+    }
+    
+    .navbar-area {
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+
+    .main-menu ul li.active a:before {
+        bottom: 10px;
+        right: -4px;
+    }
+
+    .main-menu ul li.active a:after {
+        top: 8px;
+        left: -4px;
+    }
+
+    a.book-now {
+        margin-left: 10px;
+    }
+    nav {
+        margin: 22px -30px 22px 0;
+    }
+
+    .section-header h2:after {
+        right: 40px;
+    }
+
+    .team-member {
+        height: 370px;
+    }
+
+    .member-title {
+        height: 125px;
+    }
+}
+
+
+
+/* medium Layout 1280px */
+
+@media only screen and (min-width:992px) {
+    #subscribe i {
+        float: left;
+    }
+}
+
+
+
+
+/* Tablet Layout: 768px */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .features-list-item {
+        padding: 26px 15px;
+    }
+}
+
+
+
+
+/* Mobile Layout: 320px */
+
+@media only screen and (max-width:992px) {
+
+    /* Navbar */
+    .navbar-area {
+        background: #fff;
+        min-height: 0px;
+    }
+
+    .header-right-bar {
+        text-align: right;
+        margin-right: 100px;
+    }
+
+    ul li.book-now-btn {
+        display: none !important;
+    }
+
+    /* Header top */
+    .email:after,
+    .header-social:after {
+        display: none;
+    }
+
+    .address,
+    .phone {
+        padding-left: 0;
+    }
+
+    /* Header slider */
+    .header-slider .owl-next,
+    .header-slider .owl-prev {
+        bottom: 26%;
+        top: 77%;
+    }
+
+    .header-slider .container.inner-content {
+        width: 70%;
+    }
+
+    .header-slider .container.inner-content.text-right {
+        margin-right: 0;
+    }
+
+    /* Portfolio */
+    .sorting-btn {
+        width: 100%;
+    }
+
+    .portfolio figure {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .portfolio figure img {
+        width: 100%;
+    }
+
+    .portfolio figure a img {
+        width: auto;
+    }
+
+    /* Team Member */
+    .team-member img {
+        width: 100%;
+    }
+
+    .post-thumbnail img {
+        width: 100%;
+    }
+
+    .section-header h2:after {
+        display: none;
+    }
+    #subscribe i {
+        margin-right: 0 !important;
+    }
+
+
+    .features-list-item:hover {
+        margin-top: 0;
+        box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.08);
+    }
+
+    .header-single-slider figure img {
+        height: 100%;
+    }
+
+    .call-out {
+        padding: 50px 0px;
+    }
+
+    #blog-content article.blog-post:last-child {
+        margin-bottom: 80px;
+    }
+
+    /* Blog page */
+    .post-new-comment,
+    ul.meta-info,
+    #blog-content .post-content,
+    .post-comment-area .media {
+        padding: 30px 30px;
+    }
+
+    ul.meta-info li {
+        margin-bottom: 10px;
+    }
+
+    #blog-content ul.meta-info {
+        padding: 15px 30px;
+    }
+
+    #gallery .load-btn {
+        height: 45px;
+    }
+
+    .single-blog-area .tag-share {
+        padding: 10px 30px;
+    }
+
+    #blog-content ul.meta-info li {
+        margin-right: 10px;
+    }
+
+    .scrollup {
+        right: 5px;
+        bottom: 5px;
+    }
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px */
+
+@media only screen and (max-width:767px) {
+    .header-slider .container.inner-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header-right-bar {
+        text-align: right;
+        margin-right: 80px;
+    }
+
+    .header-right-bar ul li a {
+        padding: 0 4px 0;
+    }
+
+    .portfolio .col-lg-6 figure {
+        height: 250px;
+    }
+
+    .portfolio .col-lg-6 figure img{
+        height: 100%;
+    }
+
+
+    #footer-widgets p {
+        margin-bottom: 24px;
+    }
+
+    .contact-box {
+        width: 80%;
+    }
+
+    .container.inner-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    ul.meta-info,
+    #blog-content .post-content {
+        padding: 30px 15px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .header-right-bar {
+        text-align: right;
+        margin-right: 60px;
+    }
+
+    .header-right-bar ul li a {
+        padding: 0 4px 0;
+    }
+}

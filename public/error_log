@@ -1,0 +1,13 @@
+[31-Oct-2019 06:32:45 America/New_York] PHP Warning:  require(/home/csicteid/public_html/public/../public_html/vendor/autoload.php): failed to open stream: No such file or directory in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:32:45 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/csicteid/public_html/public/../public_html/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:32:51 America/New_York] PHP Warning:  require(/home/csicteid/public_html/public/../public_html/vendor/autoload.php): failed to open stream: No such file or directory in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:32:51 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/csicteid/public_html/public/../public_html/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:33:10 America/New_York] PHP Warning:  require(/home/csicteid/public_html/public/../public_html/vendor/autoload.php): failed to open stream: No such file or directory in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:33:10 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/csicteid/public_html/public/../public_html/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:33:11 America/New_York] PHP Warning:  require(/home/csicteid/public_html/public/../public_html/vendor/autoload.php): failed to open stream: No such file or directory in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:33:11 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/csicteid/public_html/public/../public_html/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/csicteid/public_html/public/index.php on line 24
+[31-Oct-2019 06:39:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/csicteid/public_html/public/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/csicteid/public_html/public/index.php on line 23
+[06-Nov-2019 11:46:14 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 201326592 bytes exhausted (tried to allocate 195039232 bytes) in /home/csicteid/csicbd/app/Http/Controllers/AdminViewCtrl.php on line 55

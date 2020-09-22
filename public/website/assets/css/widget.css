@@ -1,0 +1,369 @@
+/*
+===============================================================
+    Footer Widgets CSS
+===============================================================
+*/
+
+#footer-widgets {
+    padding: 100px 0;
+    color: #fefefe;
+}
+
+#footer-widgets p {
+    color: #fefefe;
+}
+
+.footer-logo,
+#footer-widgets .widget-title {
+    margin-bottom: 40px;
+}
+
+p.widget-text {
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------------------
+    01. Widget About
+------------------------------------*/
+
+
+.widget_about a {
+    color: #fefefe;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+/*-----------------------------------
+    02. Widget Page List
+------------------------------------*/
+
+.widget_pages ul li {
+    padding-bottom: 12px;
+}
+
+.widget_pages ul li a {
+    color: #fff;
+    font-size: 16px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+
+/*-----------------------------------
+    03. Widget Recent Item
+------------------------------------*/
+
+.recent-item img {
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+li.recent-item {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+li.recent-item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/*-----------------------------------
+    04. Widget Contact & Social
+------------------------------------*/
+
+.widget_contact input {
+    box-shadow: inset 0px 0px 15px 0px rgba(53, 54, 60, 0.2);
+    border: 0;
+    height: 40px;
+    background: #fff;
+    padding: 15px;
+    width: 60%;
+    border-radius: 4px;
+}
+
+button.footer-subscribe.boxed-btn {
+    padding: 8px 16px;
+}
+
+ul.widget-social {
+    margin-top: 40px;
+}
+
+ul.widget-social li {
+    display: inline-block;
+}
+
+ul.widget-social li a {
+    padding-right: 15px;
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+/*
+=============================================
+ Blog Page Widgets 
+ ============================================
+ */
+
+#blog-content .widget {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+
+/*-----------------------------------
+    01. Widget Search
+------------------------------------*/
+
+.widget-search .search-form {
+    padding: 20px 20px 30px;
+}
+
+.search-form input[type="search"]::-webkit-input-placeholder {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.widget-newsletter input[type=email],
+.widget-search input[type=search] {
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    padding: 10px 10px;
+    border: 0;
+    width: 70%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.widget-search input[type=button] {
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    padding: 12px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+/*-----------------------------------
+    02. Widget Category
+------------------------------------*/
+
+#blog-content .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.widget-categories ul {
+    padding: 20px 20px 30px;
+}
+
+
+.widget-categories ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.widget-categories ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.widget-categories ul li:last-child a {
+    margin-bottom: 0;
+}
+
+
+/*-----------------------------------
+    03. Widget Recent Post
+------------------------------------*/
+
+.recent-post {
+    padding: 20px 16px;
+}
+
+.recent-post img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.recent-post h6 {]
+    line-height: 24px;
+    word-spacing: 1;
+    margin-bottom: 10px;
+}
+
+
+.recent-post p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+ul.recent-meta-info li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+ul.recent-meta-info li a {
+    font-size: 12px;
+}
+
+
+/*-----------------------------------
+    04. Widget Tags
+------------------------------------*/
+
+.widget .tags {
+    padding: 30px 16px;
+}
+
+ul.tags li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.tags li a {
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+ul.tags li a:hover {
+    color: #f9f9f9;
+}
+
+
+/*-----------------------------------
+    05. Widget Calender
+------------------------------------*/
+
+.widget-calender .widget-title li {
+    display: inline-block;
+}
+
+.widget-calender .widget-title .plus {
+    float: right;
+}
+
+.full-calender {
+    padding: 30px 16px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 11.6%;
+    font-size: 12px;\
+    font-weight: 500;
+    text-align: center;
+}
+
+.days {
+    padding: 0 0;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 11.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.days li.disable {
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.days li .active {
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+/* Calender Responsive*/
+@media screen and (max-width:920px) {
+    .weekdays li,
+    .days li {
+        width: 11.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li,
+    .days li {
+        width: 11.6%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li,
+    .days li {
+        width: 11.6%;
+    }
+}
+
+
+/*-----------------------------------
+    06. Widget Newsletter
+------------------------------------*/
+
+.widget .newsletter {
+    padding: 30px 16px;
+}
+
+.widget-newsletter input[type=email] {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.widget-newsletter .subscribe {
+    border: 1px solid;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px 16px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.widget-newsletter .subscribe:hover {
+    color: #fff;
+}
